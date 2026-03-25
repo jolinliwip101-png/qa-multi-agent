@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Test output
+test-results/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.env.local
+
+# Reports
+reports/*.html
+reports/*.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.egg-info/

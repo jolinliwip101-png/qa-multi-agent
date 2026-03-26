@@ -18,14 +18,13 @@ venv311/
 .venv/
 env/
 
-# Test artifacts
-allure-results/
-allure-report/
-reports/
+# Test artifacts (kept in repo — see allure-results/ and reports/)
 .pytest_cache/
 htmlcov/
 .coverage
 coverage.xml
+playwright-report/
+test-results/
 
 # Playwright
 playwright-report/

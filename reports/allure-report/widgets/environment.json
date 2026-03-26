@@ -1,1 +1,1 @@
-[]
+[{"values":["https://www.automationexercise.com"],"name":"Base.URL"},{"values":["Chromium"],"name":"Browser"},{"values":["131.0.6778.33"],"name":"Browser.Version"},{"values":["1.49.1"],"name":"Playwright.Version"},{"values":["3.11"],"name":"Python.Version"},{"values":["8.3.4"],"name":"pytest.Version"},{"values":["2.38.1"],"name":"Allure.Version"},{"values":["smoke"],"name":"Environment"},{"values":["Linux"],"name":"Platform"}]

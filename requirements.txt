@@ -1,0 +1,19 @@
+# Core test stack
+pytest==8.3.4
+pytest-asyncio==0.25.2
+pytest-html==4.1.1
+pytest-xdist==3.6.1
+
+# Playwright (Python)
+playwright==1.49.1
+pytest-playwright==0.7.0
+
+# API testing
+httpx==0.28.1
+requests==2.32.3
+
+# Reporting
+allure-pytest==2.13.5
+
+# Utilities
+python-dotenv==1.0.1

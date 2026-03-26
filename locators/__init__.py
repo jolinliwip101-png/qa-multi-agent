@@ -1,0 +1,28 @@
+"""
+locators/__init__.py — Locator package.
+"""
+from .registry import *
+
+__all__ = [
+    "HOME_LOGO",
+    "HOME_FEATURE_ITEMS",
+    "HOME_SUBSCRIPTION_EMAIL_INPUT",
+    "HOME_SUBSCRIPTION_BUTTON",
+    "PRODUCTS_SEARCH_INPUT",
+    "PRODUCTS_SEARCH_SUBMIT_BTN",
+    "PRODUCT_CARDS",
+    "PRODUCT_NAMES",
+    "PRODUCT_OVERLAY_ADD_TO_CART_BTN",
+    "LOGIN_EMAIL_INPUT",
+    "LOGIN_PASSWORD_INPUT",
+    "LOGIN_SUBMIT_BTN",
+    "LOGIN_FORM",
+    "CART_ITEMS",
+    "CART_PAGE_HEADING",
+    "SEARCH_PRODUCT_CARDS",
+    "NAV_LOGOUT_LINK",
+    "NAV_PRODUCTS_LINK",
+    "NAV_LOGIN_LINK",
+    "NAV_CART_LINK",
+    "NAV_HOME_LINK",
+]

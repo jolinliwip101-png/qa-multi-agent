@@ -90,3 +90,29 @@ Memory candidate:
 | Auto-capture on, recall manual | 2026-03-25 | Reduces token burn; recall only when needed |
 | bubblewrap 0.11.1 symlink | 2026-03-25 | Codex sandbox requires `--argv0` support |
 | text-embedding-3-small | 2026-03-25 | WolfAI key access confirmed |
+
+---
+
+## Stack Decision (2026-03-27)
+
+### Canonical UI Test Stack
+- **Python + Playwright + pytest + Allure**
+- Page Object Model (POM) in `pages/`
+- Centralised selectors in `locators/registry.py`
+- Fixtures in `conftest.py`
+- Tests in `tests/ui/test_ui_smoke.py`
+
+### Canonical API Test Stack
+- **Python + httpx + pytest + Allure**
+- Tests in `tests/api/test_api_smoke.py`
+
+### Archived (do not regenerate)
+- `tests/ui/_archive/smoke.spec.ts` — TypeScript Playwright test (retired)
+- `_archive/playwright.config.ts.legacy` — orphaned TS config (retired)
+- TS Playwright / Node.js test runner is NO LONGER ACTIVE
+- Do not generate TypeScript test files for this repo
+
+### Entry Points
+- `scripts/run-smoke.sh` — full smoke suite (UI + API)
+- `scripts/run-ui-smoke.sh` — UI only
+- `scripts/run-api-smoke.sh` — API only

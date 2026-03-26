@@ -1,0 +1,113 @@
+{
+  "responseCode": 200,
+  "products": [
+    {
+      "id": 3,
+      "name": "Sleeveless Dress",
+      "price": "Rs. 1000",
+      "brand": "Madame",
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Dress"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Stylish Dress",
+      "price": "Rs. 1500",
+      "brand": "Madame",
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Dress"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Sleeves Top and Short - Blue & Pink",
+      "price": "Rs. 478",
+      "brand": "Babyhug",
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Dress"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Sleeveless Unicorn Patch Gown - Pink",
+      "price": "Rs. 1050",
+      "brand": "Allen Solly Junior",
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Dress"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Cotton Mull Embroidered Dress",
+      "price": "Rs. 1190",
+      "brand": "Kookie Kids",
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Dress"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Blue Cotton Indie Mickey Dress",
+      "price": "Rs. 1530",
+      "brand": "Biba",
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Dress"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Long Maxi Tulle Fancy Dress Up Outfits -Pink",
+      "price": "Rs. 1600",
+      "brand": "Biba",
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Dress"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi",
+      "price": "Rs. 1100",
+      "brand": "Biba",
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Dress"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Rose Pink Embroidered Maxi Dress",
+      "price": "Rs. 2300",
+      "brand": "Madame",
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Dress"
+      }
+    }
+  ]
+}
